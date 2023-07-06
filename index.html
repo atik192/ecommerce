@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redstore Ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DT8V7FZPB4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-DT8V7FZPB4');
+</script>
+</head>
+<body>
+  
+  <div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+               <a href="index.html"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">products</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>       
+             </nav>
+            <a href="card.html"><img src="images/cart.png" width="30px" height="30px"></a>
+             <img src="images/menu.png" class="menu-icon"
+              onclick="menutoggle()">
+        </div>  
+          <div class="row">
+            <div class="col-2">
+                <h1>Give your workout<br>A new style!</h1>
+                <p>success is not always about greatness.It's 
+                    about consistency .consistent <br>hard work gains success.
+                    greatness will come.</p>
+                    <a href="" class="btn">Explore now &#8594;</a>
+            </div>
+            <div class="col-2">
+              <img src="images/image1.png">
+            </div>
+          </div>
+    </div>
+   </div>
+
+<!-------- featured categories -------->
+
+   <div class="categories">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+              <img src="images/category-1.jpg">
+            </div>
+            <div class="col-3">
+              <img src="images/category-2.jpg">
+            </div>
+            <div class="col-3">
+              <img src="images/category-3.jpg">
+            </div>
+  
+      </div>
+
+    </div>
+    
+   </div>
+<!-------- featured products -------->
+     <div class="small-container">
+      <h2 class="title">Featured products</h2>
+      <div class="row">
+        <div class="col-4">
+          <a href="product-details.html"><img src="images/product-1.jpg"></a>
+          <a href="product-details.html"><h4>Red printed T-shirt</h4></a>
+          
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-2.jpg">
+          <h4>Black Shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-3.jpg">
+          <h4>Men's Trousers</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>৳50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-4.jpg">
+          <h4>T-shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+      </div>
+      <h2 class="title">Latest products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-5.jpg">
+          <h4>shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-6.jpg">
+          <h4>Black printed T-shirt</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-7.jpg">
+          <h4>scoks</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-8.jpg">
+          <h4>Watch</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="images/product-9.jpg">
+          <h4>Watch</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-10.jpg">
+          <h4>shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-11.jpg">
+          <h4>shoes</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-12.jpg">
+          <h4>Men's Trousers</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-13.jpg">
+          <h4>Head phone</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-14.jpg">
+          <h4>sunglass for men</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-15.jpg">
+          <h4>Tp link Router</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-16.jpg">
+          <h4>leptop monitor screen cleaner</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-17.jpg">
+          <h4>Computer Desk</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-18.jpg">
+          <h4>Canon DSLR Camera</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-19.jpg">
+          <h4>Smart Watch</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-20.jpg">
+          <h4>College Bag</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-21.jpg">
+          <h4>Tharmometer</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-22.jpg">
+          <h4>Shart</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-23.jpg">
+          <h4>Pendrive</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 100.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-24.jpg">
+          <h4>mouse</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 65.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-25.jpg">
+          <h4>socks</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 20.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images/product-26.jpg">
+        <h4>shoes</h4>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>৳ 120.00</p>
+     </div>
+     <div class="col-4">
+      <img src="images/product-27.jpg">
+      <h4>Mobile back cover</h4>
+      <div class="rating">
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa-solid fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>৳ 133.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images/product-28.jpg">
+        <h4>i pod </h4>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>৳ 330.00</p>
+      </div>
+      <div class="col-4">
+        <img src="images/product-29.jpg">
+        <h4>remote</h4>
+        <div class="rating">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p>৳ 30.00</p>
+        </div>
+        <div class="col-4">
+          <img src="images/product-30.jpg">
+          <h4>Hd mi cable</h4>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>৳ 70.00</p>
+          </div>
+          <div class="col-4">
+            <img src="images/product-31.jpg">
+            <h4>webcam</h4>
+            <div class="rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa fa-star-o"></i>
+            </div>
+            <p>৳ 532.00</p>
+            </div>
+            <div class="col-4">
+              <img src="images/product-32.jpg">
+              <h4>Saree</h4>
+              <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa fa-star-o"></i>
+              </div>
+              <p>৳ 500.00</p>
+              </div>
+              <div class="col-4">
+                <img src="images/product-33.jpg">
+                <h4>Kapor spray</h4>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <p>৳ 50.00</p>
+                </div>
+                <div class="col-4">
+                  <img src="images/product-34.jpg">
+                  <h4>clothes</h4>
+                  <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                  </div>
+                  <p>৳ 50.00</p>
+                  </div>
+                  <div class="col-4">
+                    <img src="images/product-35.jpg">
+                    <h4>shampo</h4>
+                    <div class="rating">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>৳ 50.00</p>
+                    </div>
+                    <div class="col-4">
+                      <img src="images/product-36.jpg">
+                      <h4>mockup</h4>
+                      <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                      </div>
+                      <p>৳ 50.00</p>
+                      </div>
+                      <div class="col-4">
+                        <img src="images/product-37.jpg">
+                        <h4>chare</h4>
+                        <div class="rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>৳ 50.00</p>
+                        </div>
+                        <div class="col-4">
+                          <img src="images/product-38.jpg">
+                          <h4>baby clothes</h4>
+                          <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                          </div>
+                          <p>৳ 70.00</p>
+                          </div>
+                          <div class="col-4">
+                            <img src="images/product-39.jpg">
+                            <h4>baby clothes</h4>
+                            <div class="rating">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>৳ 100.00</p>
+                            </div>
+                            <div class="col-4">
+                              <img src="images/product-40.jpg">
+                              <h4>saree</h4>
+                              <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                              </div>
+                              <p>৳ 500.00</p>
+                              </div>
+                              <div class="col-4">
+                                <img src="images/product-41.jpg">
+                                <h4>watch</h4>
+                                <div class="rating">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa fa-star-o"></i>
+                                </div>
+                                <p>৳ 100.00</p>
+                                </div>
+                                <div class="col-4">
+                                  <img src="images/product-42.jpg">
+                                  <h4>wallet for men</h4>
+                                  <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                  </div>
+                                  <p>৳ 59.00</p>
+                                  </div>
+                                  <div class="col-4">
+                                    <img src="images/product-43.jpg">
+                                    <h4>sunglass</h4>
+                                    <div class="rating">
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa-solid fa-star"></i>
+                                      <i class="fa fa-star-o"></i>
+                                    </div>
+                                    <p>৳ 30.00</p>
+                                    </div>
+                                    <div class="col-4">
+                                      <img src="images/product-44.jpg">
+                                      <h4>Ring</h4>
+                                      <div class="rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa fa-star-o"></i>
+                                      </div>
+                                      <p>৳ 350.00</p>
+                                      </div>
+                                      <div class="col-4">
+                                        <img src="images/product-45.jpg">
+                                        <h4>Bat</h4>
+                                        <p>Special tape tennis cricket for short and long pitch</p>
+                                        <div class="rating">
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa-solid fa-star"></i>
+                                          <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <p>৳ 50.00</p>
+                                        </div>
+                                        <div class="col-4">
+                                          <img src="images/product-46.jpg">
+                                          <h4>mouse</h4>
+                                          <div class="rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                          </div>
+                                          <p>৳ 50.00</p>
+                                          </div>
+                                          <div class="col-4">
+                                            <img src="images/product-47.jpg">
+                                            <h4>mouse</h4>
+                                            <div class="rating">
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa fa-star-o"></i>
+                                            </div>
+                                            <p>৳ 50.00</p>
+                                            </div>
+                                            <div class="col-4">
+                                              <img src="images/product-48.jpg">
+                                              <h4>mouse</h4>
+                                              <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                              </div>
+                                              <p>৳ 50.00</p>
+                                              </div>
+                                              <div class="col-4">
+                                                <img src="images/product-49.jpg">
+                                                <h4>mouse</h4>
+                                                <div class="rating">
+                                                  <i class="fa-solid fa-star"></i>
+                                                  <i class="fa-solid fa-star"></i>
+                                                  <i class="fa-solid fa-star"></i>
+                                                  <i class="fa-solid fa-star"></i>
+                                                  <i class="fa fa-star-o"></i>
+                                                </div>
+                                                <p>৳ 50.00</p>
+                                                </div>
+                                                <div class="col-4">
+                                                  <img src="images/product-50.jpg">
+                                                  <h4>mouse</h4>
+                                                  <div class="rating">
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa-solid fa-star"></i>
+                                                    <i class="fa fa-star-o"></i>
+                                                  </div>
+                                                  <p>৳ 50.00</p>
+                                                  </div>
+        </div>
+<!--------- offer --------->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+           <img src="images/exclusive.png" class="offer-img">
+          </div>
+          <div class="col-2">
+              <p>Exclusively Availble on Redstore</p>
+              <h1>smart Band 4</h1>
+              <small>The mi smart Band 4 features a 39.9% 
+                larger (than mi Band 3) Amoled color
+                 full-touch display with adjustable brightness,
+                 so everything is clear as can be.</small><br>
+                 <a href="" class="btn">Buy Now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------- testimonial --------->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum is simply dummy text of the printing and
+               typesetting industry. Lorem ipsum has been the indusytry's
+                standard dummy text ever</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-1.png">
+                <h3>sean parker</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum is simply dummy text of the printing and
+               typesetting industry. Lorem ipsum has been the indusytry's
+                standard dummy text ever</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-2.png">
+                <h3>mike smith</h3>
+          </div>
+          <div class="col-3">
+            <i class="fa-solid fa-quote-left"></i>
+            <p>Lorem ipsum is simply dummy text of the printing and
+               typesetting industry. Lorem ipsum has been the indusytry's
+                standard dummy text ever</p>
+                <div class="rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa fa-star-o"></i>
+                </div>
+                <img src="images/user-3.png">
+                <h3>Mabel joe </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--------- brands --------->
+<div class="brands">
+  <div class="small-container">
+    <div class="row">
+      <div class="col-5">
+        <img src="images/logo-godrej.png">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-oppo.png">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-coca-cola.png">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-paypal.png">
+      </div>
+      <div class="col-5">
+        <img src="images/logo-philips.png">
+      </div>
+    </div>
+  </div>
+</div>
+ 
+<!-------- footer------->
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download App</h3>
+        <p>Download App for Android and ios mobile phone.</p>
+        <div class="app-logo">
+          <img src="images/play-store.png">
+          <img src="images/app-store.png">
+        </div>
+      </div>
+      <div class="footer-col-2">
+        <img src="images/logo-white.png">
+        <p>our purpose Is to sustainable Make the pleasure 
+          and Benefits of sports accessible to the many</p>
+      </div>
+      <div class="footer-col-3">
+        <h3>Useful Links</h3>
+        <ul>
+          <li>coupons</li>
+          <li>Blog Post</li>
+          <li>Return Policy</li>
+          <li>join Affiliate </li>
+        </ul>
+      </div>
+      <div class="footer-col-4">
+        <h3>Follow Us </h3>
+        <ul>
+          <li>Facebook</li>
+          <li>Twitter</li>
+          <li>instagram</li>
+          <li>YouTube </li>
+        </ul>
+      </div>
+      </div>
+      <hr>
+      <p class="copyright">copyright 2023 - Easy Tutorials</p>
+       </div>
+    </div>
+  </div>
+</div>
+<!--------js for toggle menu--------->
+    <script>
+      var Menuitems = document.getElementById("menuitems");
+      Menuitems.style.maxHeight ="0px";
+      function menutoggle(){
+        if(Menuitems.style.maxHeight == "0px")
+        {
+          Menuitems.style.maxHeight ="200px"
+        }
+        else
+        {
+          Menuitems.style.maxHeight ="0px"
+        }
+      }
+    </script>
+</body>
+</html>
